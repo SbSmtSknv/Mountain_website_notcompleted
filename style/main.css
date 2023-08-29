@@ -1,0 +1,379 @@
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    width: 1600px;
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+.header {
+    background: url(file:///C:/%D0%9D%D0%90%20%D0%9F%D0%A0%D0%9E%D0%94%D0%90%D0%96%D0%A3/%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B5/mountains/img/background-1.png);
+    height: 900px;
+}
+.menu {
+    position: absolute;
+    display: flex;
+    gap: 164px;
+}
+#main {
+    padding: 50px 0 0 200px;
+}
+.menu-main {
+    color: white;
+}
+.menu-group {
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+.header-box {
+    display: flex;
+    gap: 410px;
+}
+.header-box-left {
+    width: 486px;
+    padding-top: 286px;
+}
+h1 {
+    margin: 0 0 30px 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+.header-box-left span {
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+.header-box-left button {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+    border: none;
+    padding: 18px 129px;
+    cursor: pointer;
+}
+.header-box-right {
+    margin-top: 321px;
+}
+.header-box-right p {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    width: 75px;
+    color: white;
+    padding-top: 130px;
+}
+.header-box-right img {
+    position: absolute;
+    padding-left: 20px;
+}
+
+.see span {
+    padding: 40px 731px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.see {
+    color: black;
+}
+.place {
+    height: 170px;
+}
+
+
+.arrow {
+    position: none;
+}
+
+.about-us-text p {
+    width: 486px;
+}
+
+.about-us-main {
+    display: flex;
+}
+
+.gallery {
+    background: url(file:///C:/%D0%9D%D0%90%20%D0%9F%D0%A0%D0%9E%D0%94%D0%90%D0%96%D0%A3/%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B5/mountains/img/background-2.png);
+    background-size: cover;
+}
+
+.gallerys {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 170px;
+}
+
+.question {
+    height: 730px;
+}
+
+.question-wrap {
+    display: flex;
+    gap: 200px;
+    padding: 250px 0 0 268px;
+    height: 730px;
+}
+
+.question-word h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #282828;
+    margin-bottom: 12px;
+}
+
+.question-word p {
+    font-size: 18px;
+    color: #282828;
+}
+
+.form {
+    padding: 30px;
+    background-color: #D9D9D9;
+    height: 270px;
+    border-radius: 5px;
+}
+
+#name, #email {
+    background-color: #d9d9d9;
+    color: #292929;
+    font-size: 11px;
+    font-weight: 700;
+    width: 420px;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #282828;
+    letter-spacing: 1px;
+}
+
+#consentCheckbox {
+    margin: 20px 0 40px 0;
+}
+
+#submitButton {
+    font-size: 17px;
+    color: white;
+    background-color: #282828;
+    border-color: #282828;
+    font-weight: 600;
+    padding: 19px 136px;
+}
+
+#dataForm a {
+    color: #B4B4B4;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+
+/* Styles for overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Styles for modal */
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+  }
+
+  /* Close button style */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+.modal {
+    width: 800px;
+}
+
+.modal p {
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 27px;
+}
+
+.footer-wrap  {
+    border-top: 1px solid #282828;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.footer-wrap a {
+    font-size: 18px;
+    padding-top: 50px;
+    color: #282828;
+}
+
+.faq {
+    gap: 18px;
+    display: flex;
+}
+
+
+
+.prepare {
+    width: 640px;
+    height: 44px;
+}
+.prepare-1 {
+    width: 600px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.prepare-2,
+.prepare-3 {
+    font-weight: 700;
+    font-size: 25px;
+    opacity: 0.5;
+    padding-left: 570px;
+}
+.prepare-word {
+    padding-left: 160px;
+}
+.cap {
+    margin: 40px 160px;
+    display: flex;
+    gap: 24px;
+    position: absolute;
+} 
+.social {
+    padding: 267px 0 0 397px;
+    gap: 264px;
+    display: flex;
+    position: relative;
+}
+.prepare-3 {
+    padding: 180px 0 40px 731px ;
+}
+
+
+
+.slider-container-1 {
+    margin: 40px 160px;
+    width: 80%;
+    max-width: 1600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    display: flex;
+    gap: 60px;
+    transition: transform 1s ease-in-out;
+}
+.buttons-1 {
+    position: relative;
+    display: flex;
+    margin: 120px 0;
+    gap: 1154px;
+}
+.button-1,
+.button-2 {
+    border: none;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.button-1:hover,
+.button-2:hover {
+    background-color: #555;
+}
+
+.reviw {
+    margin-left: 160px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+
+.tours {
+    margin-top: 140px;
+    height: 600px;
+}
+
+.tours-h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.slider-container {
+    margin: 40px 160px;
+    width: 80%;
+    max-width: 1600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    display: flex;
+    gap: 24px;
+    transition: transform 1s ease-in-out;
+}
+
+.slider img {
+    width: 384px;
+    height: 420px;
+}
+.buttons {
+    position: relative;
+    display: flex;
+    margin: 180px 0;
+    gap: 1154px;
+}
+.prev-button,
+.next-button {
+    border: none;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    background-color: #555;
+}
