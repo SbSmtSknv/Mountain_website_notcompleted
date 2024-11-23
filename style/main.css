@@ -21,7 +21,8 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 .header {
-    background: url(file:///C:/%D0%9D%D0%90%20%D0%9F%D0%A0%D0%9E%D0%94%D0%90%D0%96%D0%A3/%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B5/mountains/img/background-1.png);
+    background: url(https://files.oaiusercontent.com/file-JBcpvZHnUz1UFeMnJstRkj?se=2024-11-23T23%3A58%3A39Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D2723ff8b-6c13-4f60-97f5-2628a35c913e.webp&sig=dO%2Bs93QclZ73gJVXqVsbm8UbrcdroE6QlNe4pE%2BLfiY%3D);
+    background-size: cover;
     height: 900px;
 }
 .menu {
